@@ -1,0 +1,15 @@
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\bin\Debug\net5.0\DataControllers.deps.json
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\bin\Debug\net5.0\DataControllers.dll
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\bin\Debug\net5.0\ref\DataControllers.dll
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\bin\Debug\net5.0\DataControllers.pdb
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\bin\Debug\net5.0\Data.dll
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\bin\Debug\net5.0\Data.pdb
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\obj\Debug\net5.0\DataControllers.csproj.AssemblyReference.cache
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\obj\Debug\net5.0\DataControllers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\obj\Debug\net5.0\DataControllers.AssemblyInfoInputs.cache
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\obj\Debug\net5.0\DataControllers.AssemblyInfo.cs
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\obj\Debug\net5.0\DataControllers.csproj.CoreCompileInputs.cache
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\obj\Debug\net5.0\DataControllers.csproj.CopyComplete
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\obj\Debug\net5.0\DataControllers.dll
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\obj\Debug\net5.0\ref\DataControllers.dll
+C:\Users\Kris\Desktop\Project\FlightManager\DataControllers\obj\Debug\net5.0\DataControllers.pdb
