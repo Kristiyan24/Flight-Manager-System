@@ -19,7 +19,6 @@ C:\Users\Kris\Desktop\Project\FlightManager\Data\bin\Debug\net5.0\Data.runtimeco
 C:\Users\Kris\Desktop\Project\FlightManager\Data\bin\Debug\net5.0\Data.dll
 C:\Users\Kris\Desktop\Project\FlightManager\Data\bin\Debug\net5.0\ref\Data.dll
 C:\Users\Kris\Desktop\Project\FlightManager\Data\bin\Debug\net5.0\Data.pdb
-C:\Users\Kris\Desktop\Project\FlightManager\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
 C:\Users\Kris\Desktop\Project\FlightManager\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Kris\Desktop\Project\FlightManager\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
 C:\Users\Kris\Desktop\Project\FlightManager\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
