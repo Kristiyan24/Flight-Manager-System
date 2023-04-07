@@ -46,3 +46,4 @@ D:\Projects\c#\Flight-Manager-System\WebPages\obj\Debug\net5.0\WebPages.csproj.C
 D:\Projects\c#\Flight-Manager-System\WebPages\obj\Debug\net5.0\Razor\Pages\LoginPage.cshtml.g.cs
 D:\Projects\c#\Flight-Manager-System\WebPages\obj\Debug\net5.0\Razor\Pages\Register.cshtml.g.cs
 D:\Projects\c#\Flight-Manager-System\WebPages\obj\Debug\net5.0\Razor\Pages\Test\BuyTicketForFlight.cshtml.g.cs
+D:\Projects\c#\Flight-Manager-System\WebPages\obj\Debug\net5.0\Razor\Pages\MakeReservation.cshtml.g.cs
