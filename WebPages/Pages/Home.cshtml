@@ -1,0 +1,23 @@
+﻿@page
+@model HomeModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    body{
+        
+        background-image:url('img/Plane_Flighting_from_airport.jpg');
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+  background-size: 100% 100%;
+    }
+</style>
+
+<div style="margin-top:40vh" class="text-white">
+    <h1 class="d-flex">Welcome to the <b> KC SkyLine</b>!</h1>
+    <h3 class="d-flex ">Make reservations for your next trip today!</h3>
+    <br></br>
+    <br/>
+    <a class="d-flex h3 w-25 text-white border rounded border-white d-inline-flex p-2" style="border-width:15px; " asp-area="" asp-page="/Privacy">Make a reservation</a>
+
+</div>
