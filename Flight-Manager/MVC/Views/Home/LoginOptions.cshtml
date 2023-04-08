@@ -1,0 +1,54 @@
+﻿@using Data;
+@using Microsoft.AspNetCore.Identity;
+
+@inject SignInManager<dbUser> SignInManager;
+@inject UserManager<dbUser> UserManager;
+@{
+    ViewData["Title"] = "Login Options";
+}
+
+<style>
+    body{
+        
+        background-image:url('img/Plane_Flighting_from_airport.jpg');
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-size: 100% 100%;
+    }
+</style>
+
+
+
+<br />
+<br />
+<h1 class="d-flex justify-content-center">Before we begin...</h1>
+<br />
+<br />
+<br />
+<br />
+
+<div  class= "d-flex justify-content-center">
+
+    <div style="box-sizing: border-box; border:3px solid black; border-radius:10px; width:40%; padding:8vh; float:left; margin-right:25px ">
+
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <a class="h3">See available flights!</a>
+        }
+        else
+        {
+            <div >
+                <a class="h3">Login</a>
+                <a class="h3">Register</a>
+            </div>
+        }
+
+    </div>
+
+
+    <div  style="box-sizing: border-box; border:3px solid black; border-radius:10px; width:40%; padding:8vh; float:right">
+        <a class="h3">Reserve without login</a>
+    </div>
+
+
+</div>

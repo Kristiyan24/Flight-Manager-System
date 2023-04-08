@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Data.Flight>
+@using Data;
+@using Microsoft.AspNetCore.Identity;
+
+@inject SignInManager<dbUser> SignInManager
+@inject UserManager<dbUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+@if (SignInManager.IsSignedIn(User))
+{
+    <a>Book a flight!</a>
+}
+else
+{
+    <a>Make a reservation!</a>  
+}
+
+            
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StartLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TakeOff)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Landing)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PlaneIdentificationNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PlaneType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PilotName)
+            </th>
+            <th>
+                Passanger count
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PriceNormal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TakeOff)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Landing)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlaneIdentificationNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlaneType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PilotName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AllPassengersCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PriceNormal)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
