@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TYCbATIznj1uqgpFykThSe8/d/0+qs3Qx8ICLpxXDp+LdQtitPZ9lKcX9HKDtz/vVjoS/aVkaMj8Rji/qKXlQw==",
+  "dgSpecHash": "KKRf91ZLnf+X2ZY7K0L6BshPYx//z9LMjXXQvjAkKtRYnUNsI/f4Tew4ARgg5duVEZm3d9aVn2kjLZTbpC0n6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\D0g\\Desktop\\Flight-Manager\\MVC\\MVC.csproj",
+  "projectFilePath": "C:\\Users\\D0g\\Desktop\\doge\\Flight-Manager-System\\Flight-Manager\\MVC\\MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\D0g\\.nuget\\packages\\fluentemail.core\\3.0.2\\fluentemail.core.3.0.2.nupkg.sha512",
     "C:\\Users\\D0g\\.nuget\\packages\\fluentemail.razor\\3.0.2\\fluentemail.razor.3.0.2.nupkg.sha512",

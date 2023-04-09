@@ -33,13 +33,14 @@
 
         @if (SignInManager.IsSignedIn(User))
         {
-            <a class="h3">See available flights!</a>
+            <a asp-area="" asp-controller="Flights" asp-action="Index" class="h3">See available flights!</a>   
+
         }
         else
         {
             <div >
-                <a class="h3">Login</a>
-                <a class="h3">Register</a>
+                <a class="h3" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                <a class="h3" asp-area="Identity" asp-page="/Account/Register">Register</a>
             </div>
         }
 

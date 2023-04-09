@@ -6224,11 +6224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\D0g\\Desktop\\Flight-Manager\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\D0g\\Desktop\\doge\\Flight-Manager-System\\Flight-Manager\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\D0g\\Desktop\\Flight-Manager\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\D0g\\Desktop\\doge\\Flight-Manager-System\\Flight-Manager\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\D0g\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\D0g\\Desktop\\Flight-Manager\\Data\\obj\\",
+      "outputPath": "C:\\Users\\D0g\\Desktop\\doge\\Flight-Manager-System\\Flight-Manager\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\D0g\\AppData\\Roaming\\NuGet\\NuGet.Config",
